@@ -1,21 +1,12 @@
 import React from "react";
 import Footer from "./footer";
 import Header from "./header";
+import Form from "./free-work/form";
 const App = () => {
   return (
     <div>
       <Header />
-      <div className="p-5">
-        <p>Hello world</p>
-        <p>Hello world</p>
-        <p>Hello world</p>
-        <p>Hello world</p>
-        <p>Hello world</p>
-        <p>Hello world</p>
-        <p>Hello world</p>
-        <p>Hello world</p>
-      </div>
-
+      <Form />
       <Footer />
     </div>
   );
